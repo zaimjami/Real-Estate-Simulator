@@ -1,0 +1,53 @@
+{
+    "runs": 256,
+    "months": 360,
+    "market": {
+    "inflation_annual": 0.02,
+    "rent_growth_annual": 0.03,
+    "rate_volatility": 0.01,
+    "vacancy_probability_monthly": 0.06
+    },
+    "portfolio": {
+    "name": "Starter Portfolio",
+    "properties": [
+    {
+    "id": "DEN-SFH-01",
+    "kind": "SingleFamily",
+    "purchase_price": 450000.0,
+    "down_payment": 90000.0,
+    "closing_costs": 8000.0,
+    "rent_monthly": 2600.0,
+    "hoa_monthly": 0.0,
+    "tax_rate_annual": 0.0075,
+    "insurance_annual": 1300.0,
+    "maintenance_rate_annual": 0.012,
+    "appreciation_rate_annual": 0.03,
+    "mortgage": {
+    "loan_type": "Fixed30",
+    "principal": 360000.0,
+    "annual_rate": 0.065,
+    "term_months": 360
+    }
+    },
+    {
+    "id": "DEN-MFH-02",
+    "kind": "MultiFamily",
+    "purchase_price": 800000.0,
+    "down_payment": 160000.0,
+    "closing_costs": 12000.0,
+    "rent_monthly": 5200.0,
+    "hoa_monthly": 200.0,
+    "tax_rate_annual": 0.008,
+    "insurance_annual": 2200.0,
+    "maintenance_rate_annual": 0.015,
+    "appreciation_rate_annual": 0.028,
+    "mortgage": {
+    "loan_type": "Fixed30",
+    "principal": 640000.0,
+    "annual_rate": 0.0625,
+    "term_months": 360
+    }
+    }
+    ]
+    }
+    }
